@@ -203,6 +203,19 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Lab artifacts / model outputs
+*.zip
+*.safetensors
+/loss_curve.png
+lab21_lora_t4/**/checkpoint-*/
+lab21_lora_t4/r*/
+lab21_lora_t4/**/optimizer.pt
+lab21_lora_t4/**/rng_state.pth
+lab21_lora_t4/**/scaler.pt
+lab21_lora_t4/**/scheduler.pt
+lab21_lora_t4/**/tokenizer.json
+lab21_lora_t4/**/training_args.bin
+
 # Ruff stuff:
 .ruff_cache/
 
